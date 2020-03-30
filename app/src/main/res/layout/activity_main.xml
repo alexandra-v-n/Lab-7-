@@ -12,9 +12,11 @@
 
     <Button
         android:id="@+id/button2"
+        android:background="#ba6ef0"
+        android:textColor="#eba0e2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:text="LISTEN IT!"
         android:onClick="textToSpeech"/>
     <TextView
@@ -25,9 +27,11 @@
 
     <Button
         android:id="@+id/button"
+        android:background="#ba6ef0"
+        android:textColor="#eba0e2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="450dp"
         android:onClick="displaySpeechRecognizer"
         android:text="Tap to open mic" />
 
