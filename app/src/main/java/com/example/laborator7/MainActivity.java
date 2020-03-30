@@ -43,13 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onPause(){
-        if(t1 !=null){
-            t1.stop();
-            t1.shutdown();
-        }
-        super.onPause();
-    }
+
 
     // Create an intent that can start the Speech Recognizer activity
     public void  displaySpeechRecognizer(View v) {
@@ -65,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
         Log.e("TEST",toSpeak);
         Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
         t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+
+        Intent i  = new Intent(MainActivity.this, Main2Activity.class);
+        startActivity(i);
     }
 
     @Override
