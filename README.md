@@ -20,3 +20,17 @@ I have created two fragments which extend the Fragment class as shown in the sec
 Advantages in using fragments:
 - multiple fragments can be combined in the same activity, therefore you can create a multi-pane user interface;
 - its life cycle is related to that of the host which means that when the activity stops, all the fragments in the activity stop;
+
+HERE IS A GIF OF HOW THE LAB WORKS: 
+<div align="center">
+<img src="lab7.gif"  height="500" >
+</div>                                                  
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+       
